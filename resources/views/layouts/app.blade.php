@@ -58,6 +58,10 @@
                                     Docentes grupos
                                 </a>
                             @endif
+                            <a class="nav-link collapsed" href="{{ route('estudiantes.index') }}">
+                                <div class="sb-nav-link-icon"><i class="fas fa-columns"></i></div>
+                                Estudiantes
+                            </a>
                         </div>
                     </div>
                     <div class="sb-sidenav-footer">
